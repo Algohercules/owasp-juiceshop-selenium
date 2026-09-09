@@ -1,2 +1,3 @@
 com/owasp/juiceshop/AppTest.class
 com/owasp/juiceshop/BasicSeleniumTest.class
+com/owasp/juiceshop/TC_Login_001.class

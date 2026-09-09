@@ -1,18 +1,18 @@
 -------------------------------------------------------------------------------
 Test set: com.owasp.juiceshop.BasicSeleniumTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 9.395 s <<< FAILURE! -- in com.owasp.juiceshop.BasicSeleniumTest
-com.owasp.juiceshop.BasicSeleniumTest.validLoginTest -- Time elapsed: 9.383 s <<< ERROR!
-org.openqa.selenium.ElementNotInteractableException: 
-element not interactable
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 8.643 s <<< FAILURE! -- in com.owasp.juiceshop.BasicSeleniumTest
+com.owasp.juiceshop.BasicSeleniumTest.validLoginTest -- Time elapsed: 8.617 s <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#navbarAccount"}
   (Session info: chrome=152.0.7977.82)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.35.0', revision: '1c58e5028b'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '7.0.0-31-generic', java.version: '21.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e5326bce5c5b90c5a9718f838d0559c1, clickElement {id=f.0951AD66C0BAD69776B5E9F4339206F2.d.24AB40C572F20A4368D3E838ED954CFE.e.32}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.82, chrome: {chromedriverVersion: 152.0.7977.82 (d04cdb24d67b..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36825}, goog:processID: 29617, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:36825/devtoo..., se:cdpVersion: 152.0.7977.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on linux (e5326bce5c5b90c5a9718f838d0559c1)] -> id: navbarAccount]
-Session ID: e5326bce5c5b90c5a9718f838d0559c1
+Command: [59e729603863d704cbb86fec799bd594, findElement {value=navbarAccount, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.82, chrome: {chromedriverVersion: 152.0.7977.82 (d04cdb24d67b..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:34657}, goog:processID: 74320, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:34657/devtoo..., se:cdpVersion: 152.0.7977.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 59e729603863d704cbb86fec799bd594
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -23,8 +23,10 @@ Session ID: e5326bce5c5b90c5a9718f838d0559c1
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
 	at com.owasp.juiceshop.BasicSeleniumTest.validLoginTest(BasicSeleniumTest.java:20)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
