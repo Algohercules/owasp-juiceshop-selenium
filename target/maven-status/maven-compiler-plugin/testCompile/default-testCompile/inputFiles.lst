@@ -1,3 +1,6 @@
-/home/adarsh/main/projects/java/crc-devops/Owasp-juiceshop/Owasp-juiceshop-selenium/owasp-juiceshop-selenium/src/test/java/com/owasp/juiceshop/AppTest.java
-/home/adarsh/main/projects/java/crc-devops/Owasp-juiceshop/Owasp-juiceshop-selenium/owasp-juiceshop-selenium/src/test/java/com/owasp/juiceshop/BasicSeleniumTest.java
-/home/adarsh/main/projects/java/crc-devops/Owasp-juiceshop/Owasp-juiceshop-selenium/owasp-juiceshop-selenium/src/test/java/com/owasp/juiceshop/TC_Login_001.java
+/home/adarsh/main/projects/java/owasp-juiceshop-selenium/src/test/java/com/owasp/juiceshop/AppTest.java
+/home/adarsh/main/projects/java/owasp-juiceshop-selenium/src/test/java/com/owasp/juiceshop/BasicSeleniumTest.java
+/home/adarsh/main/projects/java/owasp-juiceshop-selenium/src/test/java/com/owasp/juiceshop/TC_Login_001.java
+/home/adarsh/main/projects/java/owasp-juiceshop-selenium/src/test/java/com/owasp/juiceshop/TC_Login_002.java
+/home/adarsh/main/projects/java/owasp-juiceshop-selenium/src/test/java/com/owasp/juiceshop/TC_Login_003.java
+/home/adarsh/main/projects/java/owasp-juiceshop-selenium/src/test/java/com/owasp/juiceshop/TC_Login_004.java
