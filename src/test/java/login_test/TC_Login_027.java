@@ -1,4 +1,4 @@
-package com.owasp.juiceshop;
+package login_test;
 
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;

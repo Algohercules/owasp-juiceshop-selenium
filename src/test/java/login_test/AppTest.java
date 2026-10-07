@@ -1,4 +1,4 @@
-package com.owasp.juiceshop;
+package login_test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
